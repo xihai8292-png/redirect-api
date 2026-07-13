@@ -7,7 +7,7 @@ module.exports = async (req, res) => {
     // ★★★ 核心开关：审核模式 ★★★
     // 过审前（提交广告审核时）设为 true，所有流量去谷歌商店
     // 过审后（广告状态变为“有效”后）设为 false，开始按地区分发
-    const IS_REVIEW_MODE = true; 
+    const IS_REVIEW_MODE = false; 
     
     // 你的真实落地页（用户最终想看到的页面）
     const MY_LANDING_PAGE = 'https://bit-paieters.onepage.me/';
